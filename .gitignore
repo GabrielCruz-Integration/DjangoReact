@@ -1,1 +1,3 @@
 venv/
+
+djangoreact/db.sqlite3
