@@ -1,0 +1,16 @@
+{% load static %}
+<!-- templates/frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Aplicação React</title>
+    <body>
+        {% if debug %}
+        <script type="module" src="http://localhost:3000/App.tsx"></script>
+        {% endif %}
+</head>
+    
+    <div id="root"></div>
+</body>
+</html>
